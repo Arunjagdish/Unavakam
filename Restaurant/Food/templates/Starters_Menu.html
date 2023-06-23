@@ -1,0 +1,236 @@
+<html>
+    <style>
+        :root {
+  --themeBG: #1d1e22;
+  --themeFont: #efefef;
+}
+
+.menu {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px 30px;
+  background: var(--themeBG);
+  border: 3px solid var(--themeFont);
+  box-shadow: 1px 1px 3px black;
+  color: var(--themeFont);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.itemWrap {
+  margin-bottom: 10px;
+}
+
+/*Displaying flex and justifying content space between to take up the width of the box*/
+.itemNameWrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.itemName {
+  font-size: 1.8em;
+}
+
+/*The Radial Gradient background is used as the dots. The position being at 90% helps line up the dots with the price which is just a little smaller than the description. Flex-grow: 2 makes the middle spread out to take up the remaining space. */
+.itemMiddle {
+  vertical-align: bottom;
+  background-image: radial-gradient(var(--themeFont) 1px, var(--themeBG) 0px);
+  background-size: 8px 8px;
+  background-repeat: repeat-x;
+  background-position: left 90%;
+  flex-grow: 2;
+}
+
+.itemPrice {
+  font-size: 1.6em;
+  padding-top:5px;
+}
+
+.itemDescription {
+  font-size: 1.1em;
+  font-style: italic;
+}
+
+
+#centre{
+  margin-left: 46%;
+}
+
+#next{
+  margin-left: 41%;
+}
+
+body{
+  background-color: rgb(121, 119, 121);
+}
+
+    </style>
+    <body>
+        <div class="menu">
+            <h1>STARTERS</h1>
+            <span class="itemName" id="centre">𝓥𝓮𝓰</span>
+             <div class="itemWrap">
+              <div class="itemNameWrap">
+                <span class="itemName">Veg Lollipop</span>
+                <span class="itemMiddle"></span>
+                <span class="itemPrice">Rs.150</span>
+              </div>
+
+              <div class="itemWrap">
+                <div class="itemNameWrap">
+                 <span class="itemName">Crispy Corn</span>
+                 <span class="itemMiddle"></span>
+                 <span class="itemPrice">Rs.160</span>
+                 </div>
+
+              <div class="itemWrap">
+                <div class="itemNameWrap">
+                  <span class="itemName">Cheese Bread Roll</span>
+                  <span class="itemMiddle"></span>
+                  <span class="itemPrice">Rs.160</span>
+                </div>
+
+                <div class="itemWrap">
+                    <div class="itemNameWrap">
+                      <span class="itemName">Veg Momos</span>
+                      <span class="itemMiddle"></span>
+                      <span class="itemPrice">Rs.180</span>
+                    </div>
+
+                <div class="itemWrap">
+                     <div class="itemNameWrap">
+                      <span class="itemName">Corn Cheese Balls</span>
+                      <span class="itemMiddle"></span>
+                      <span class="itemPrice">Rs.180</span>
+                      </div>
+
+
+                      <div class="itemWrap">
+                        <div class="itemNameWrap">
+                         <span class="itemName">Gobi Manchurian</span>
+                         <span class="itemMiddle"></span>
+                         <span class="itemPrice">Rs.180</span>
+                         </div>
+
+
+                         <div class="itemWrap">
+                          <div class="itemNameWrap">
+                           <span class="itemName">Panner Popcorn</span>
+                           <span class="itemMiddle"></span>
+                           <span class="itemPrice">Rs.180</span>
+                           </div>
+
+
+                           <div class="itemWrap">
+                            <div class="itemNameWrap">
+                             <span class="itemName">Panner Tikka</span>
+                             <span class="itemMiddle"></span>
+                             <span class="itemPrice">Rs.180</span>
+                             </div>
+
+
+                         <div class="itemWrap">
+                          <div class="itemNameWrap">
+                           <span class="itemName">Veg Nuggets</span>
+                           <span class="itemMiddle"></span>
+                           <span class="itemPrice">Rs.180</span>
+                           </div>
+
+                 
+
+              <br>
+
+              <span class="itemName" id="next">𝓝𝓸𝓷-𝓥𝓮𝓰</span>
+
+              <div class="itemWrap">
+                <div class="itemNameWrap">
+                  <span class="itemName">Egg 65</span>
+                  <span class="itemMiddle"></span>
+                  <span class="itemPrice">Rs.160</span>
+                </div>
+
+
+               <div class="itemWrap">
+                <div class="itemNameWrap">
+                   <span class="itemName">Chicken 65</span>
+                   <span class="itemMiddle"></span>
+                  <span class="itemPrice">Rs.180</span>
+                  </div>
+
+
+                  <div class="itemWrap">
+                    <div class="itemNameWrap">
+                       <span class="itemName">Prawn 65</span>
+                       <span class="itemMiddle"></span>
+                      <span class="itemPrice">Rs.180</span>
+                      </div>
+    
+            <div class="itemWrap">
+              <div class="itemNameWrap">
+                <span class="itemName">Chicken Popcorn</span>
+                <span class="itemMiddle"></span>
+                <span class="itemPrice">Rs.200</span>
+              </div>
+
+              <div class="itemWrap">
+                <div class="itemNameWrap">
+                  <span class="itemName">Chilli Chicken Pineapple</span>
+                  <span class="itemMiddle"></span>
+                  <span class="itemPrice">Rs.180</span>
+                </div>
+
+
+                <div class="itemWrap">
+                  <div class="itemNameWrap">
+                    <span class="itemName">Chicken Momos</span>
+                    <span class="itemMiddle"></span>
+                    <span class="itemPrice">Rs.210</span>
+                  </div>
+      
+                
+                <div class="itemWrap">
+                  <div class="itemNameWrap">
+                    <span class="itemName">Chicken Tikka</span>
+                    <span class="itemMiddle"></span>
+                    <span class="itemPrice">Rs.210</span>
+                  </div>
+
+
+                  
+                  <div class="itemWrap">
+                    <div class="itemNameWrap">
+                      <span class="itemName">Chicken Cheese Balls</span>
+                      <span class="itemMiddle"></span>
+                      <span class="itemPrice">Rs.210</span>
+                    </div>
+            
+                  <div class="itemWrap">
+                    <div class="itemNameWrap">
+                      <span class="itemName">Chicken Fingers</span>
+                      <span class="itemMiddle"></span>
+                      <span class="itemPrice">Rs.230</span>
+                    </div>
+
+                    <div class="itemWrap">
+                      <div class="itemNameWrap">
+                        <span class="itemName">Fish Fingers</span>
+                        <span class="itemMiddle"></span>
+                        <span class="itemPrice">Rs.230</span>
+                      </div>
+
+                      
+                  <div class="itemWrap">
+                    <div class="itemNameWrap">
+                      <span class="itemName">Fish Chilli</span>
+                      <span class="itemMiddle"></span>
+                      <span class="itemPrice">Rs.230</span>
+                    </div>
+
+
+
+                
+    </body>
+</html>
